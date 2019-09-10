@@ -1,0 +1,28 @@
+{
+    "0": {
+        "YEAR": 2017,
+        "month": 9,
+        "day": 4,
+        "discount": 300.0,
+        "discount_percentage": 13.05,
+        "FLOORING": 0,
+        "event_flag": 1,
+        "ACCOUNT": "THD",
+        "DC": "N1Z",
+        "MODEL": "LSXC22396S",
+        "date": "2017-09-04",
+        "ITEMDC": "LSXC22396SN1Z",
+        "MAP": 2299.0,
+        "PMAP": 1999.0,
+        "Inventory": 3.0,
+        "PROMO": "Labor",
+        "BU": "REF",
+        "SMSB_SUB_CATEGORY": "SIDE X SIDE",
+        "WEEKNUM": 201736,
+        "week": 36,
+        "QTY": 2,
+        "event_groups_Low": 0,
+        "event_groups_Mid": 1,
+        "event_groups_Not Applicable": 0
+    }
+}

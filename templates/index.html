@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simulation</title>
+	<script src = "static/js/jquery-3-4-1.js" type = "text/javascript"></script>
+	<script src = "static/js/jquery.growl.js" type = "text/javascript"></script>
+	<script src = "static/js/google-charts_loader.js" type = "text/javascript"></script>
+	<script src = "static/js/google-charts.js" type = "text/javascript"></script>
+	<link href="static/bootstrap-4.3.1/css/bootstrap.min.css" rel="stylesheet"/>
+	<link href="static/css/style.css" rel="stylesheet"/>
+	<link href="static/css/jquery.growl.css" rel="stylesheet"/>
+	<!-- <link href="static/fontawesome/css/all.min.css" rel="stylesheet"/> -->
+	<link href="static/fontawesome/css/font-awesome.min.css" rel="stylesheet"/>
+	<script src = "static/bootstrap-4.3.1/js/bootstrap.min.js" type = "text/javascript"></script>
+	<!-- <script src = "static/js/jquery.growl.js" type = "text/javascript"></script> -->
+</head>
+
+<body>
+
+<div  id = "document_engager">
+	<div class="spinner-border"  role="status">
+		<span class="sr-only">Loading...</span>
+	</div>
+</div>
+
+<div class  = "container-fluid">
+	<div class = "row">
+		<div class = "col-lg-12 col-md-12 col-sm-12 col-xs-12" id = "header">
+			<span id= "title">Simulation</span>
+		</div>
+	</div>
+</div>
+<div class  = "container-fluid">
+	<div class = "row">
+		<div class = "col-lg-2 col-md-2 col-sm-3 col-xs-12" id="filter_sidebar">
+			<div id = "options_filter">
+				<button type="button" class="btn btn-primary" id = "initialize_filter">
+					<i class="fa fa-filter" aria-hidden="true"></i>
+					Load
+				</button>
+			</div>
+			<div id = "account_filter">
+				<label for = "account_filter_txt" >
+					Account:
+				</label>
+				<div class = "divider"></div>
+				<input type ="text" id = "account_filter_txt" list = "account_filter_list"/>
+				<datalist id="account_filter_list"></datalist>
+			</div>
+			<div id = "bu_filter">
+				<label for = "bu_filter_txt" >
+					BU:
+				</label>
+				<div class = "divider"></div>
+				<input type ="text" id = "bu_filter_txt" list = "bu_filter_list"/>
+				<datalist id="bu_filter_list"></datalist>
+			</div>
+			<div id = "smsb_filter">
+				<label for = "smsb_filter_txt" >
+					SMSB Sub Category:
+				</label>
+				<div class = "divider"></div>
+				<input type ="text" id = "smsb_filter_txt" list = "smsb_filter_list"/>
+				<datalist id="smsb_filter_list"></datalist>
+			</div>
+
+			<div id = "product_filter">
+				<label for = "product_filter_txt" >
+					Product:
+				</label>
+				<div class = "divider"></div>
+				<input type ="text" id = "product_filter_txt" list = "product_filter_list"/>
+				<datalist id="product_filter_list"></datalist>
+			</div>
+			<div id = "dc_filter">
+				<label for = "dc_filter_txt" >
+					DC:
+				</label>
+				<div class = "divider"></div>
+				<input type ="text" id = "dc_filter_txt" list = "dc_filter_list"/>
+				<datalist id="dc_filter_list"></datalist>
+			</div>
+		</div>
+		<div class = "col-lg-10 col-md-10 col-sm-9 col-xs-12" id="main">
+			<div class  = "container-fluid">
+				<div class = "row" id="actions">
+					<button onclick="return simulate()" class = "btn btn-primary driver">
+						<i class="fa fa-random" aria-hidden="true"></i> SIMULATE
+					</button>
+
+					<button id = "print_chart_btn" class = "btn btn-primary driver">
+						<a id = "print_chart_link">
+							<i class="fa fa-download" aria-hidden="true"></i> SAVE
+						</a>
+					</button>
+					
+
+
+					<button class = "btn btn-primary driver" id = "toggle_chart_view_mode" >
+						<i class="fa fa-table" aria-hidden="true"></i> <span id = "toggle_chart_view_mode_title">TABLE</span>
+					</button>
+
+					<button class = "btn btn-primary driver" id = "get_historical_data" >
+						<i class="fa fa-calendar" aria-hidden="true"></i> <span id = "get_historical_data_title">COMPARE <span class = "sub_text">Last years</span></span>
+					</button>
+					
+					<button class = "btn btn-warning driver"  id = "clear_filter">
+						<i class="fa fa-spinner" aria-hidden="true"></i> RESET
+					</button>	
+					<button class = "btn btn-primary driver"  id = "get_insight">
+						<!-- <i class="fa fa-spinner" aria-hidden="true"></i>  -->
+						<i class="fa fa-binoculars" aria-hidden="true"></i>
+						INSIGHTS
+					</button>	
+
+				</div>
+
+				<div class = "row">
+					<div class = "col-lg-12 col-md-12 col-sm-12 col-xs-12" id="visualize_box">
+						<div id = "visualize">
+						</div>
+					</div>
+				</div>
+
+				
+				<div class = "row">
+					<div class = "col-lg-11 col-md-10 col-sm-12 col-xs-12" id = "weekly_summary_table">
+						<table class= "table table-hover table-borderless table-sm">
+							<thead>
+								<tr>
+								</tr>
+							</thead>
+							<tbody></tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="display_msg" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-body">
+				<span id = "message_area"></span>
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- <div id="display_change_summary">
+</div> -->
+<div id="display_change_summary_modal" class="modal fade" role="dialog">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h3>Insights</h3>
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+
+			<div class="modal-body">
+				<div id = "display_change_summary"></div>
+			</div>
+			<div class="modal-footer">
+				<span class = "not_applicable_notice">
+					* NA: Some values cannot presented because the first value is 0
+				</span>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="display_sensitivity_chart" class="modal fade" role="dialog">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h3>Sensitivity Graph</h3>
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+			<div class="modal-body">
+				<div id = "sensitivity_chart_area"></span>
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- <div id="display_sidebar" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-body">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+
+				<div id = "options_filter">
+					<button type="button" class="btn btn-primary" id = "initialize_filter">
+						<i class="fa fa-filter" aria-hidden="true"></i>
+						Load
+					</button>
+				</div>
+				<div id = "account_filter">
+					<label for = "account_filter_txt" >
+						Account:
+					</label>
+					<div class = "divider"></div>
+					<input type ="text" id = "account_filter_txt" list = "account_filter_list"/>
+					<datalist id="account_filter_list"></datalist>
+				</div>
+				<div id = "bu_filter">
+					<label for = "bu_filter_txt" >
+						BU:
+					</label>
+					<div class = "divider"></div>
+					<input type ="text" id = "bu_filter_txt" list = "bu_filter_list"/>
+					<datalist id="bu_filter_list"></datalist>
+				</div>
+				<div id = "smsb_filter">
+					<label for = "smsb_filter_txt" >
+						SMSB Sub Category:
+					</label>
+					<div class = "divider"></div>
+					<input type ="text" id = "smsb_filter_txt" list = "smsb_filter_list"/>
+					<datalist id="smsb_filter_list"></datalist>
+				</div>
+
+				<div id = "product_filter">
+					<label for = "product_filter_txt" >
+						Product:
+					</label>
+					<div class = "divider"></div>
+					<input type ="text" id = "product_filter_txt" list = "product_filter_list"/>
+					<datalist id="product_filter_list"></datalist>
+				</div>
+				<div id = "dc_filter">
+					<label for = "dc_filter_txt" >
+						DC:
+					</label>
+					<div class = "divider"></div>
+					<input type ="text" id = "dc_filter_txt" list = "dc_filter_list"/>
+					<datalist id="dc_filter_list"></datalist>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src = "static/js/visualizer.js" type = "text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,186 @@
+2019-09-06 16:50:24,760 -  * Running on http://0.0.0.0:4444/ (Press CTRL+C to quit)
+2019-09-06 16:50:24,761 -  * Restarting with stat
+2019-09-06 16:50:25,147 -  * Debugger is active!
+2019-09-06 16:50:25,152 -  * Debugger PIN: 858-428-140
+2019-09-06 16:50:55,726 - Rendering the frontend
+2019-09-06 16:50:55,732 - 127.0.0.1 - - [06/Sep/2019 16:50:55] "GET / HTTP/1.1" 200 -
+2019-09-06 16:50:55,780 - 127.0.0.1 - - [06/Sep/2019 16:50:55] "GET /static/bootstrap-4.3.1/css/bootstrap.min.css HTTP/1.1" 200 -
+2019-09-06 16:50:55,780 - 127.0.0.1 - - [06/Sep/2019 16:50:55] "GET /static/css/style.css HTTP/1.1" 200 -
+2019-09-06 16:50:55,782 - 127.0.0.1 - - [06/Sep/2019 16:50:55] "GET /static/css/jquery.growl.css HTTP/1.1" 200 -
+2019-09-06 16:50:55,783 - 127.0.0.1 - - [06/Sep/2019 16:50:55] "GET /static/fontawesome/css/font-awesome.min.css HTTP/1.1" 200 -
+2019-09-06 16:50:55,874 - 127.0.0.1 - - [06/Sep/2019 16:50:55] "GET /accounts HTTP/1.1" 200 -
+2019-09-06 16:50:55,876 - 127.0.0.1 - - [06/Sep/2019 16:50:55] "GET /bu HTTP/1.1" 200 -
+2019-09-06 16:50:55,878 - 127.0.0.1 - - [06/Sep/2019 16:50:55] "GET /smsb HTTP/1.1" 200 -
+2019-09-06 16:50:55,881 - 127.0.0.1 - - [06/Sep/2019 16:50:55] "GET /products HTTP/1.1" 200 -
+2019-09-06 16:50:55,882 - 127.0.0.1 - - [06/Sep/2019 16:50:55] "GET /dc HTTP/1.1" 200 -
+2019-09-06 16:51:28,963 - False
+2019-09-06 16:51:28,963 - Cache miss for key:THD_REF_FRENCH DOOR_N1A_LMXS30776S_2018-07-09 on col: X_test
+2019-09-06 16:51:28,965 - 127.0.0.1 - - [06/Sep/2019 16:51:28] "GET /data?account=THD&dc=N1A&bu=REF&smsb=FRENCH%20DOOR&product=LMXS30776S HTTP/1.1" 200 -
+2019-09-06 16:51:38,290 - Compute Engine Metadata server unavailable onattempt 1 of 3
+2019-09-06 16:51:38,361 - Compute Engine Metadata server unavailable onattempt 2 of 3
+2019-09-06 16:51:41,364 - Compute Engine Metadata server unavailable onattempt 3 of 3
+2019-09-06 16:51:46,951 - 127.0.0.1 - - [06/Sep/2019 16:51:46] "GET /sensitivity_data?driver_name=FLOORING&account=THD&dc=N1A&target_week=2018-07-09&product=LMXS30776S HTTP/1.1" 200 -
+2019-09-06 16:52:08,796 - 127.0.0.1 - - [06/Sep/2019 16:52:08] "POST /data HTTP/1.1" 200 -
+2019-09-06 16:52:37,290 - 127.0.0.1 - - [06/Sep/2019 16:52:37] "GET /sensitivity_data?driver_name=FLOORING&account=THD&dc=N1A&target_week=2018-07-23&product=LMXS30776S HTTP/1.1" 200 -
+2019-09-06 16:53:25,191 - 127.0.0.1 - - [06/Sep/2019 16:53:25] "GET /static/bootstrap-4.3.1/css/bootstrap.min.css HTTP/1.1" 200 -
+2019-09-06 16:53:25,227 - 127.0.0.1 - - [06/Sep/2019 16:53:25] "GET /static/bootstrap-4.3.1/css/bootstrap.min.css HTTP/1.1" 200 -
+2019-09-06 16:53:25,513 - 127.0.0.1 - - [06/Sep/2019 16:53:25] "GET /static/bootstrap-4.3.1/css/bootstrap.min.css.map HTTP/1.1" 200 -
+2019-09-06 17:19:59,969 - Rendering the frontend
+2019-09-06 17:19:59,970 - 127.0.0.1 - - [06/Sep/2019 17:19:59] "GET / HTTP/1.1" 200 -
+2019-09-06 17:20:00,009 - 127.0.0.1 - - [06/Sep/2019 17:20:00] "GET /static/bootstrap-4.3.1/css/bootstrap.min.css HTTP/1.1" 200 -
+2019-09-06 17:20:00,011 - 127.0.0.1 - - [06/Sep/2019 17:20:00] "GET /static/css/style.css HTTP/1.1" 200 -
+2019-09-06 17:20:00,014 - 127.0.0.1 - - [06/Sep/2019 17:20:00] "GET /static/css/jquery.growl.css HTTP/1.1" 200 -
+2019-09-06 17:20:00,016 - 127.0.0.1 - - [06/Sep/2019 17:20:00] "GET /static/fontawesome/css/font-awesome.min.css HTTP/1.1" 200 -
+2019-09-06 17:20:00,100 - 127.0.0.1 - - [06/Sep/2019 17:20:00] "GET /static/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 -
+2019-09-06 17:20:00,168 - 127.0.0.1 - - [06/Sep/2019 17:20:00] "GET /accounts HTTP/1.1" 200 -
+2019-09-06 17:20:00,169 - 127.0.0.1 - - [06/Sep/2019 17:20:00] "GET /bu HTTP/1.1" 200 -
+2019-09-06 17:20:00,171 - 127.0.0.1 - - [06/Sep/2019 17:20:00] "GET /smsb HTTP/1.1" 200 -
+2019-09-06 17:20:00,172 - 127.0.0.1 - - [06/Sep/2019 17:20:00] "GET /products HTTP/1.1" 200 -
+2019-09-06 17:20:00,174 - 127.0.0.1 - - [06/Sep/2019 17:20:00] "GET /dc HTTP/1.1" 200 -
+2019-09-06 17:20:12,386 - False
+2019-09-06 17:20:12,387 - Cache miss for key:THD_REF_FRENCH DOOR_N1A_LMXS30776S_2018-07-09 on col: X_test
+2019-09-06 17:20:12,388 - 127.0.0.1 - - [06/Sep/2019 17:20:12] "GET /data?account=THD&dc=N1A&bu=REF&smsb=FRENCH%20DOOR&product=LMXS30776S HTTP/1.1" 200 -
+2019-09-06 17:20:23,300 - 127.0.0.1 - - [06/Sep/2019 17:20:23] "POST /data HTTP/1.1" 200 -
+2019-09-06 17:20:38,436 - 127.0.0.1 - - [06/Sep/2019 17:20:38] "GET /static/js HTTP/1.1" 404 -
+2019-09-06 17:21:40,906 - Rendering the frontend
+2019-09-06 17:21:40,907 - 127.0.0.1 - - [06/Sep/2019 17:21:40] "GET / HTTP/1.1" 200 -
+2019-09-06 17:21:40,936 - 127.0.0.1 - - [06/Sep/2019 17:21:40] "GET /static/js/jquery-3-4-1.js HTTP/1.1" 200 -
+2019-09-06 17:21:40,938 - 127.0.0.1 - - [06/Sep/2019 17:21:40] "GET /static/js/jquery.growl.js HTTP/1.1" 200 -
+2019-09-06 17:21:40,940 - 127.0.0.1 - - [06/Sep/2019 17:21:40] "GET /static/js/google-charts_loader.js HTTP/1.1" 200 -
+2019-09-06 17:21:40,942 - 127.0.0.1 - - [06/Sep/2019 17:21:40] "GET /static/bootstrap-4.3.1/css/bootstrap.min.css HTTP/1.1" 200 -
+2019-09-06 17:21:40,943 - 127.0.0.1 - - [06/Sep/2019 17:21:40] "GET /static/js/google-charts.js HTTP/1.1" 200 -
+2019-09-06 17:21:40,947 - 127.0.0.1 - - [06/Sep/2019 17:21:40] "GET /static/css/jquery.growl.css HTTP/1.1" 200 -
+2019-09-06 17:21:40,948 - 127.0.0.1 - - [06/Sep/2019 17:21:40] "GET /static/css/style.css HTTP/1.1" 200 -
+2019-09-06 17:21:40,951 - 127.0.0.1 - - [06/Sep/2019 17:21:40] "GET /static/fontawesome/css/font-awesome.min.css HTTP/1.1" 200 -
+2019-09-06 17:21:40,953 - 127.0.0.1 - - [06/Sep/2019 17:21:40] "GET /static/bootstrap-4.3.1/js/bootstrap.min.js HTTP/1.1" 200 -
+2019-09-06 17:21:40,955 - 127.0.0.1 - - [06/Sep/2019 17:21:40] "GET /static/js/visualizer.js HTTP/1.1" 200 -
+2019-09-06 17:21:41,050 - 127.0.0.1 - - [06/Sep/2019 17:21:41] "GET /static/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 -
+2019-09-06 17:21:41,068 - 127.0.0.1 - - [06/Sep/2019 17:21:41] "GET /accounts HTTP/1.1" 200 -
+2019-09-06 17:21:41,070 - 127.0.0.1 - - [06/Sep/2019 17:21:41] "GET /bu HTTP/1.1" 200 -
+2019-09-06 17:21:41,071 - 127.0.0.1 - - [06/Sep/2019 17:21:41] "GET /smsb HTTP/1.1" 200 -
+2019-09-06 17:21:41,072 - 127.0.0.1 - - [06/Sep/2019 17:21:41] "GET /products HTTP/1.1" 200 -
+2019-09-06 17:21:41,074 - 127.0.0.1 - - [06/Sep/2019 17:21:41] "GET /dc HTTP/1.1" 200 -
+2019-09-06 17:21:41,182 - 127.0.0.1 - - [06/Sep/2019 17:21:41] "GET /favicon.ico HTTP/1.1" 404 -
+2019-09-06 17:21:59,502 - Rendering the frontend
+2019-09-06 17:21:59,502 - 127.0.0.1 - - [06/Sep/2019 17:21:59] "GET / HTTP/1.1" 200 -
+2019-09-06 17:21:59,731 - 127.0.0.1 - - [06/Sep/2019 17:21:59] "GET /accounts HTTP/1.1" 200 -
+2019-09-06 17:21:59,732 - 127.0.0.1 - - [06/Sep/2019 17:21:59] "GET /bu HTTP/1.1" 200 -
+2019-09-06 17:21:59,733 - 127.0.0.1 - - [06/Sep/2019 17:21:59] "GET /smsb HTTP/1.1" 200 -
+2019-09-06 17:21:59,734 - 127.0.0.1 - - [06/Sep/2019 17:21:59] "GET /products HTTP/1.1" 200 -
+2019-09-06 17:21:59,736 - 127.0.0.1 - - [06/Sep/2019 17:21:59] "GET /dc HTTP/1.1" 200 -
+2019-09-06 17:22:11,052 - False
+2019-09-06 17:22:11,053 - Cache miss for key:THD_REF_FRENCH DOOR_N1A_LMXS30776S_2018-07-09 on col: X_test
+2019-09-06 17:22:11,054 - 127.0.0.1 - - [06/Sep/2019 17:22:11] "GET /data?account=THD&dc=N1A&bu=REF&smsb=FRENCH%20DOOR&product=LMXS30776S HTTP/1.1" 200 -
+2019-09-06 17:22:22,556 - 127.0.0.1 - - [06/Sep/2019 17:22:22] "POST /data HTTP/1.1" 200 -
+2019-09-06 17:22:30,185 - 127.0.0.1 - - [06/Sep/2019 17:22:30] "POST /data HTTP/1.1" 200 -
+2019-09-06 17:22:31,805 - 127.0.0.1 - - [06/Sep/2019 17:22:31] "GET /historical_data?account=THD&dc=N1A&bu=REF&smsb=FRENCH%20DOOR&product=LMXS30776S HTTP/1.1" 200 -
+2019-09-06 17:22:40,989 - 127.0.0.1 - - [06/Sep/2019 17:22:40] "GET /sensitivity_data?driver_name=PMAP&account=THD&dc=N1A&target_week=2018-07-09&product=LMXS30776S HTTP/1.1" 200 -
+2019-09-09 17:01:40,086 -  * Running on http://0.0.0.0:4444/ (Press CTRL+C to quit)
+2019-09-09 17:01:40,086 -  * Restarting with stat
+2019-09-09 17:01:40,500 -  * Debugger is active!
+2019-09-09 17:01:40,506 -  * Debugger PIN: 133-804-190
+2019-09-09 17:01:44,785 - Rendering the frontend
+2019-09-09 17:01:44,821 - 127.0.0.1 - - [09/Sep/2019 17:01:44] "GET / HTTP/1.1" 200 -
+2019-09-09 17:01:44,883 - 127.0.0.1 - - [09/Sep/2019 17:01:44] "GET /static/js/jquery.growl.js HTTP/1.1" 200 -
+2019-09-09 17:01:44,894 - 127.0.0.1 - - [09/Sep/2019 17:01:44] "GET /static/js/jquery-3-4-1.js HTTP/1.1" 200 -
+2019-09-09 17:01:44,900 - 127.0.0.1 - - [09/Sep/2019 17:01:44] "GET /static/js/google-charts.js HTTP/1.1" 200 -
+2019-09-09 17:01:44,901 - 127.0.0.1 - - [09/Sep/2019 17:01:44] "GET /static/js/google-charts_loader.js HTTP/1.1" 200 -
+2019-09-09 17:01:44,911 - 127.0.0.1 - - [09/Sep/2019 17:01:44] "GET /static/bootstrap-4.3.1/css/bootstrap.min.css HTTP/1.1" 200 -
+2019-09-09 17:01:44,914 - 127.0.0.1 - - [09/Sep/2019 17:01:44] "GET /static/css/jquery.growl.css HTTP/1.1" 200 -
+2019-09-09 17:01:44,923 - 127.0.0.1 - - [09/Sep/2019 17:01:44] "GET /static/bootstrap-4.3.1/js/bootstrap.min.js HTTP/1.1" 200 -
+2019-09-09 17:01:44,930 - 127.0.0.1 - - [09/Sep/2019 17:01:44] "GET /static/fontawesome/css/font-awesome.min.css HTTP/1.1" 200 -
+2019-09-09 17:01:44,939 - 127.0.0.1 - - [09/Sep/2019 17:01:44] "GET /static/js/visualizer.js HTTP/1.1" 200 -
+2019-09-09 17:01:44,942 - 127.0.0.1 - - [09/Sep/2019 17:01:44] "GET /static/css/style.css HTTP/1.1" 200 -
+2019-09-09 17:01:45,027 - 127.0.0.1 - - [09/Sep/2019 17:01:45] "GET /static/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 -
+2019-09-09 17:01:45,037 - 127.0.0.1 - - [09/Sep/2019 17:01:45] "GET /accounts HTTP/1.1" 200 -
+2019-09-09 17:01:45,038 - 127.0.0.1 - - [09/Sep/2019 17:01:45] "GET /bu HTTP/1.1" 200 -
+2019-09-09 17:01:45,040 - 127.0.0.1 - - [09/Sep/2019 17:01:45] "GET /smsb HTTP/1.1" 200 -
+2019-09-09 17:01:45,042 - 127.0.0.1 - - [09/Sep/2019 17:01:45] "GET /products HTTP/1.1" 200 -
+2019-09-09 17:01:45,043 - 127.0.0.1 - - [09/Sep/2019 17:01:45] "GET /dc HTTP/1.1" 200 -
+2019-09-09 17:01:45,052 - 127.0.0.1 - - [09/Sep/2019 17:01:45] "GET /favicon.ico HTTP/1.1" 404 -
+2019-09-09 17:02:00,712 - False
+2019-09-09 17:02:00,713 - Cache miss for key:THD_REF_FRENCH DOOR_N1A_LMXS30776S_2018-07-09 on col: X_test
+2019-09-09 17:02:00,730 - 127.0.0.1 - - [09/Sep/2019 17:02:00] "GET /data?account=THD&dc=N1A&bu=REF&smsb=FRENCH%20DOOR&product=LMXS30776S HTTP/1.1" 200 -
+2019-09-09 17:02:11,988 - Compute Engine Metadata server unavailable onattempt 1 of 3
+2019-09-09 17:02:12,043 - Compute Engine Metadata server unavailable onattempt 2 of 3
+2019-09-09 17:02:15,047 - Compute Engine Metadata server unavailable onattempt 3 of 3
+2019-09-09 17:02:22,487 -   Elapsed 7.09 s. Waiting...
+2019-09-09 17:02:25,207 - Total time taken 9.81 s.
+Finished at 2019-09-09 17:02:25.
+2019-09-09 17:02:25,212 - 127.0.0.1 - - [09/Sep/2019 17:02:25] "GET /sensitivity_data?driver_name=PMAP&account=THD&dc=N1A&target_week=2018-07-16&product=LMXS30776S HTTP/1.1" 200 -
+2019-09-09 17:02:36,848 - 127.0.0.1 - - [09/Sep/2019 17:02:36] "GET /sensitivity_data?driver_name=PMAP&account=THD&dc=N1A&target_week=2018-07-16&product=LMXS30776S HTTP/1.1" 200 -
+2019-09-09 17:02:42,915 - 127.0.0.1 - - [09/Sep/2019 17:02:42] "GET /sensitivity_data?driver_name=PMAP&account=THD&dc=N1A&target_week=2018-07-16&product=LMXS30776S HTTP/1.1" 200 -
+2019-09-09 17:04:06,270 -  * Running on http://0.0.0.0:4444/ (Press CTRL+C to quit)
+2019-09-09 17:04:06,270 -  * Restarting with stat
+2019-09-09 17:04:06,677 -  * Debugger is active!
+2019-09-09 17:04:06,683 -  * Debugger PIN: 176-249-328
+2019-09-09 17:04:11,828 -  * Running on http://0.0.0.0:4444/ (Press CTRL+C to quit)
+2019-09-09 17:04:11,828 -  * Restarting with stat
+2019-09-09 17:04:12,241 -  * Debugger is active!
+2019-09-09 17:04:12,247 -  * Debugger PIN: 151-927-293
+2019-09-09 17:04:16,939 - Rendering the frontend
+2019-09-09 17:04:16,956 - 127.0.0.1 - - [09/Sep/2019 17:04:16] "GET / HTTP/1.1" 200 -
+2019-09-09 17:04:16,996 - 127.0.0.1 - - [09/Sep/2019 17:04:16] "GET /static/js/jquery-3-4-1.js HTTP/1.1" 304 -
+2019-09-09 17:04:17,002 - 127.0.0.1 - - [09/Sep/2019 17:04:17] "GET /static/js/google-charts_loader.js HTTP/1.1" 304 -
+2019-09-09 17:04:17,002 - 127.0.0.1 - - [09/Sep/2019 17:04:17] "GET /static/js/jquery.growl.js HTTP/1.1" 304 -
+2019-09-09 17:04:17,004 - 127.0.0.1 - - [09/Sep/2019 17:04:17] "GET /static/bootstrap-4.3.1/css/bootstrap.min.css HTTP/1.1" 304 -
+2019-09-09 17:04:17,006 - 127.0.0.1 - - [09/Sep/2019 17:04:17] "GET /static/js/google-charts.js HTTP/1.1" 304 -
+2019-09-09 17:04:17,008 - 127.0.0.1 - - [09/Sep/2019 17:04:17] "GET /static/css/style.css HTTP/1.1" 304 -
+2019-09-09 17:04:17,013 - 127.0.0.1 - - [09/Sep/2019 17:04:17] "GET /static/css/jquery.growl.css HTTP/1.1" 304 -
+2019-09-09 17:04:17,016 - 127.0.0.1 - - [09/Sep/2019 17:04:17] "GET /static/bootstrap-4.3.1/js/bootstrap.min.js HTTP/1.1" 304 -
+2019-09-09 17:04:17,017 - 127.0.0.1 - - [09/Sep/2019 17:04:17] "GET /static/fontawesome/css/font-awesome.min.css HTTP/1.1" 304 -
+2019-09-09 17:04:17,018 - 127.0.0.1 - - [09/Sep/2019 17:04:17] "GET /static/js/visualizer.js HTTP/1.1" 304 -
+2019-09-09 17:04:17,105 - 127.0.0.1 - - [09/Sep/2019 17:04:17] "GET /accounts HTTP/1.1" 200 -
+2019-09-09 17:04:17,106 - 127.0.0.1 - - [09/Sep/2019 17:04:17] "GET /bu HTTP/1.1" 200 -
+2019-09-09 17:04:17,107 - 127.0.0.1 - - [09/Sep/2019 17:04:17] "GET /smsb HTTP/1.1" 200 -
+2019-09-09 17:04:17,109 - 127.0.0.1 - - [09/Sep/2019 17:04:17] "GET /products HTTP/1.1" 200 -
+2019-09-09 17:04:17,110 - 127.0.0.1 - - [09/Sep/2019 17:04:17] "GET /dc HTTP/1.1" 200 -
+2019-09-09 17:04:28,388 - Cache miss for key:THD_REF_FRENCH DOOR_N1A_LMXS30776S_2018-07-09 on col: X_test
+2019-09-09 17:04:28,391 - 127.0.0.1 - - [09/Sep/2019 17:04:28] "GET /data?account=THD&dc=N1A&bu=REF&smsb=FRENCH%20DOOR&product=LMXS30776S HTTP/1.1" 200 -
+2019-09-09 17:04:31,944 - Cache miss for key:THD_N1A_LMXS30776S_2018-07-09_2018-07-16_PMAP on col: Sensitivity
+2019-09-09 17:04:35,338 - Compute Engine Metadata server unavailable onattempt 1 of 3
+2019-09-09 17:04:35,403 - Compute Engine Metadata server unavailable onattempt 2 of 3
+2019-09-09 17:04:38,407 - Compute Engine Metadata server unavailable onattempt 3 of 3
+2019-09-09 17:04:43,464 - 127.0.0.1 - - [09/Sep/2019 17:04:43] "GET /sensitivity_data?driver_name=PMAP&account=THD&dc=N1A&target_week=2018-07-16&product=LMXS30776S HTTP/1.1" 200 -
+2019-09-09 17:04:46,945 - Cache miss for key:THD_N1A_LMXS30776S_2018-07-09_2018-07-16_PMAP on col: Sensitivity
+2019-09-09 17:04:51,172 - 127.0.0.1 - - [09/Sep/2019 17:04:51] "GET /sensitivity_data?driver_name=PMAP&account=THD&dc=N1A&target_week=2018-07-16&product=LMXS30776S HTTP/1.1" 200 -
+2019-09-09 17:20:30,140 - Unknown option passed to Flask-CORS: support_credentials
+2019-09-09 17:20:30,141 - Unknown option passed to Flask-CORS: support_credentials
+2019-09-09 17:20:30,154 -  * Running on http://0.0.0.0:4444/ (Press CTRL+C to quit)
+2019-09-09 17:20:30,154 -  * Restarting with stat
+2019-09-09 17:20:30,548 - Unknown option passed to Flask-CORS: support_credentials
+2019-09-09 17:20:30,549 - Unknown option passed to Flask-CORS: support_credentials
+2019-09-09 17:20:30,560 -  * Debugger is active!
+2019-09-09 17:20:30,566 -  * Debugger PIN: 184-202-658
+2019-09-09 17:20:35,489 - Rendering the frontend
+2019-09-09 17:20:35,508 - 127.0.0.1 - - [09/Sep/2019 17:20:35] "GET / HTTP/1.1" 200 -
+2019-09-09 17:20:35,537 - 127.0.0.1 - - [09/Sep/2019 17:20:35] "GET /static/js/jquery-3-4-1.js HTTP/1.1" 304 -
+2019-09-09 17:20:35,538 - 127.0.0.1 - - [09/Sep/2019 17:20:35] "GET /static/js/jquery.growl.js HTTP/1.1" 304 -
+2019-09-09 17:20:35,543 - 127.0.0.1 - - [09/Sep/2019 17:20:35] "GET /static/bootstrap-4.3.1/css/bootstrap.min.css HTTP/1.1" 304 -
+2019-09-09 17:20:35,544 - 127.0.0.1 - - [09/Sep/2019 17:20:35] "GET /static/js/google-charts_loader.js HTTP/1.1" 304 -
+2019-09-09 17:20:35,549 - 127.0.0.1 - - [09/Sep/2019 17:20:35] "GET /static/js/google-charts.js HTTP/1.1" 304 -
+2019-09-09 17:20:35,551 - 127.0.0.1 - - [09/Sep/2019 17:20:35] "GET /static/css/style.css HTTP/1.1" 304 -
+2019-09-09 17:20:35,551 - 127.0.0.1 - - [09/Sep/2019 17:20:35] "GET /static/css/jquery.growl.css HTTP/1.1" 304 -
+2019-09-09 17:20:35,553 - 127.0.0.1 - - [09/Sep/2019 17:20:35] "GET /static/fontawesome/css/font-awesome.min.css HTTP/1.1" 304 -
+2019-09-09 17:20:35,556 - 127.0.0.1 - - [09/Sep/2019 17:20:35] "GET /static/bootstrap-4.3.1/js/bootstrap.min.js HTTP/1.1" 304 -
+2019-09-09 17:20:35,558 - 127.0.0.1 - - [09/Sep/2019 17:20:35] "GET /static/js/visualizer.js HTTP/1.1" 200 -
+2019-09-09 17:20:35,651 - 127.0.0.1 - - [09/Sep/2019 17:20:35] "GET /accounts HTTP/1.1" 200 -
+2019-09-09 17:20:35,653 - 127.0.0.1 - - [09/Sep/2019 17:20:35] "GET /bu HTTP/1.1" 200 -
+2019-09-09 17:20:35,657 - 127.0.0.1 - - [09/Sep/2019 17:20:35] "GET /smsb HTTP/1.1" 200 -
+2019-09-09 17:20:35,658 - 127.0.0.1 - - [09/Sep/2019 17:20:35] "GET /products HTTP/1.1" 200 -
+2019-09-09 17:20:35,659 - 127.0.0.1 - - [09/Sep/2019 17:20:35] "GET /dc HTTP/1.1" 200 -
+2019-09-09 17:20:47,872 - Cache hit for key:THD_REF_FRENCH DOOR_N1A_LMXS30776S_2018-07-09 on col: X_test
+2019-09-09 17:20:47,873 - 127.0.0.1 - - [09/Sep/2019 17:20:47] "GET /data?account=THD&dc=N1A&bu=REF&smsb=FRENCH%20DOOR&product=LMXS30776S HTTP/1.1" 200 -
+2019-09-09 17:20:50,843 - Cache hit for key:THD_N1A_LMXS30776S_2018-07-09_2018-07-16_PMAP on col: Sensitivity
+2019-09-09 17:20:50,844 - 127.0.0.1 - - [09/Sep/2019 17:20:50] "GET /sensitivity_data?driver_name=PMAP&account=THD&dc=N1A&target_week=2018-07-16&product=LMXS30776S HTTP/1.1" 200 -
+2019-09-09 17:21:10,615 - Cache miss for key:THD_REF_FRENCH DOOR_N1A_LMXS30776S_2018-07-09 on col: Last_year
+2019-09-09 17:21:10,627 - 127.0.0.1 - - [09/Sep/2019 17:21:10] "GET /historical_data?account=THD&dc=N1A&bu=REF&smsb=FRENCH%20DOOR&product=LMXS30776S HTTP/1.1" 200 -
+2019-09-09 17:21:16,619 - Cache hit for key:THD_REF_FRENCH DOOR_N1A_LMXS30776S_2018-07-09 on col: Last_year
+2019-09-09 17:21:16,620 - 127.0.0.1 - - [09/Sep/2019 17:21:16] "GET /historical_data?account=THD&dc=N1A&bu=REF&smsb=FRENCH%20DOOR&product=LMXS30776S HTTP/1.1" 200 -
+2019-09-09 17:21:24,990 - Cache miss for key:THD_N1A_LMXS30776S_2018-07-09_2018-07-23_PMAP on col: Sensitivity
+2019-09-09 17:21:28,385 - Compute Engine Metadata server unavailable onattempt 1 of 3
+2019-09-09 17:21:28,459 - Compute Engine Metadata server unavailable onattempt 2 of 3
+2019-09-09 17:21:31,463 - Compute Engine Metadata server unavailable onattempt 3 of 3
+2019-09-09 17:21:35,706 - 127.0.0.1 - - [09/Sep/2019 17:21:35] "GET /sensitivity_data?driver_name=PMAP&account=THD&dc=N1A&target_week=2018-07-23&product=LMXS30776S HTTP/1.1" 200 -
+2019-09-09 17:21:39,554 - Cache hit for key:THD_N1A_LMXS30776S_2018-07-09_2018-07-23_PMAP on col: Sensitivity
+2019-09-09 17:21:39,556 - 127.0.0.1 - - [09/Sep/2019 17:21:39] "GET /sensitivity_data?driver_name=PMAP&account=THD&dc=N1A&target_week=2018-07-23&product=LMXS30776S HTTP/1.1" 200 -

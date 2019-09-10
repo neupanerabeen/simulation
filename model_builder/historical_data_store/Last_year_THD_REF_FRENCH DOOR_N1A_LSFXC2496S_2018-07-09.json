@@ -1,0 +1,28 @@
+{
+    "0": {
+        "YEAR": 2017,
+        "month": 9,
+        "day": 4,
+        "discount": 1100.0,
+        "discount_percentage": 26.84,
+        "FLOORING": 0,
+        "event_flag": 1,
+        "ACCOUNT": "THD",
+        "DC": "N1A",
+        "MODEL": "LSFXC2496S",
+        "date": "2017-09-04",
+        "ITEMDC": "LSFXC2496SN1A",
+        "MAP": 4099.0,
+        "PMAP": 2999.0,
+        "Inventory": 1.0,
+        "PROMO": "Labor",
+        "BU": "REF",
+        "SMSB_SUB_CATEGORY": "FRENCH DOOR",
+        "WEEKNUM": 201736,
+        "week": 36,
+        "QTY": 2,
+        "event_groups_Low": 0,
+        "event_groups_Mid": 1,
+        "event_groups_Not Applicable": 0
+    }
+}
